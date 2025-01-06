@@ -9,6 +9,7 @@ library(ggrepel)
 library(factoextra)
 library(forcats)
 
+# Set working directory
 setwd("~/Documents/Rice_Research/")
 
 solidity <- read.csv("~/Downloads/USDA_seed_scan_phenotypes.csv") %>%
