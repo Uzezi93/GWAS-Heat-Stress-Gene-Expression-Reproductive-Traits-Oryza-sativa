@@ -12,6 +12,7 @@ library(forcats)
 # Set working directory
 setwd("~/Documents/Rice_Research/")
 
+# Load trait data
 solidity <- read.csv("~/Downloads/USDA_seed_scan_phenotypes.csv") %>%
   select(., c(GSOR, Solidity))
 names(solidity) <- c("Samples", "Solidity")
